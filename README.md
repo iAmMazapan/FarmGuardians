@@ -1,31 +1,75 @@
-# FarmGuardians
+# Farm Guardians: NASA Agro Challenge 🚜🌿
 
-FarmGuardians es un MVP educativo de agricultura que conecta datos reales de NASA con decisiones de juego en un entorno XR/2D. El proyecto permite a los jugadores gestionar el riego y fertilización de parcelas virtuales usando datos climáticos y de vegetación reales.
+**Farm Guardians** es un MVP educativo desarrollado para la [NASA Space Apps Challenge 2025](https://www.spaceappschallenge.org/2025/challenges/nasa-farm-navigators-using-nasa-data-exploration-in-agriculture/).  
+El proyecto permite a los jugadores gestionar riego, fertilización y rotación de cultivos usando datos satelitales reales de NASA, equilibrando producción y sostenibilidad.
+
+**Nombre del equipo:** Todo está acá 👉🧠👈
+
+**Integrantes:**
+- Gutierrez Vilca, Henry Williams  
+- Nieto Barrientos, Yishar Piero (Líder de equipo)  
+- Ochoa Barrios, Jesús Gustavo  
+- Pachari Lipa, Milton Alexis  
+- Puma Huamani, Glina de la Flor  
 
 ---
 
-## 📂 Estructura del Proyecto
+## Objetivo del Juego
+Convertirse en un guardián agrícola sostenible, tomando decisiones basadas en datos reales:  
+- Riego y fertilización  
+- Rotación de cultivos  
+- Balance entre rendimiento y cuidado ambiental  
+
+### Bucle Principal
+1. Observar datos NASA (Temperatura, Lluvia, NDVI; opcional: Humedad SMAP, Evapotranspiración ECOSTRESS)  
+2. Decidir acciones (regar, fertilizar, rotar cultivos)  
+3. Simular la semana → actualizar vigor, agua y alertas  
+4. Recibir feedback inmediato (puntaje y tooltips educativos)
+
+---
+
+## Mecánicas Clave
+- Mantener tres indicadores: Vigor del cultivo, Humedad del suelo, Salud del suelo  
+- Desafíos: eficiencia en agua, fertilización balanceada, rotación sostenible  
+- Recompensas visuales: cambios de color en cultivos y biodiversidad  
+- Minijuegos opcionales para reforzar aprendizaje de datos
+
+---
+
+## Datos Reales NASA
+| Fuente | Uso | Implementación |
+|--------|-----|----------------|
+| NASA POWER | Temperatura y lluvia | JSON diario/semanal |
+| NDVI MODIS/VIIRS | Vigor vegetal inicial | PNG estática |
+| SMAP (opcional) | Humedad inicial | Valor base |
+| ECOSTRESS (opcional) | Evapotranspiración | Factores dinámicos |
+
+**Modo sin conexión:** usar dataset precargado (`JSON`).
+
+---
+
+## Estructura del Proyecto
 
 ```text
 FarmGuardians/
 │
 ├─ UnityProject/            # Proyecto de Unity (XR + UI + Mecánicas)
-│   ├─ Assets/              # Prefabs, texturas, sonidos, modelos
-│   ├─ Scenes/              # Escenas del juego
-│   ├─ Scripts/             # Scripts de mecánicas y lectura de JSON
-│   └─ UI/                  # Prefabs de barras de estado y tutorial
+│   ├─ Assets/
+│   ├─ Scenes/
+│   ├─ Scripts/
+│   └─ UI/
 │
-├─ DataIntegrator/          # Parte 3: Integración de datos NASA
-│   ├─ ColabNotebooks/      # Notebooks para descargar y procesar datos
+├─ DataIntegrator/
+│   ├─ ColabNotebooks/
 │   │   └─ nasa_data.ipynb
-│   ├─ raw_data/            # Datos descargados crudos (opcional)
-│   ├─ processed_data/      # Archivos JSON listos para Unity
+│   ├─ raw_data/
+│   ├─ processed_data/
 │   │   └─ data.json
-│   ├─ utils.py             # Funciones de ayuda: descarga, limpieza, normalización
-│   └─ requirements.txt     # Librerías necesarias (pandas, requests, numpy...)
+│   ├─ utils.py
+│   └─ requirements.txt
 │
-├─ Design/                  # Recursos de UI/UX
-│   ├─ Mockups/             # Imágenes de diseño de barras, tutoriales
-│   └─ Documentation/       # Guías y referencias de diseño
+├─ Design/
+│   ├─ Mockups/
+│   └─ Documentation/
 │
 └─ README.md
