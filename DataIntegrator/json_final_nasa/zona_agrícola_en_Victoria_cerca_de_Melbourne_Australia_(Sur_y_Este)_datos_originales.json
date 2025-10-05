@@ -1,0 +1,115 @@
+{
+  "location": "zona agrícola en Victoria cerca de Melbourne Australia (Sur y Este) datos originales",
+  "data": [
+    {
+      "fecha": "2019-09-14",
+      "NDVI": 0.4137,
+      "LST_Day_C": 19.19,
+      "Precipitacion_mm_16dias": 48.95,
+      "Humedad_suelo_m3m3": 0.2692,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 12135826.07,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2019-09-30",
+      "NDVI": 0.3918,
+      "LST_Day_C": 21.095,
+      "Precipitacion_mm_16dias": 10.97,
+      "Humedad_suelo_m3m3": 0.2478,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 9537325.17,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2019-10-16",
+      "NDVI": 0.3766,
+      "LST_Day_C": 23.0,
+      "Precipitacion_mm_16dias": 20.96,
+      "Humedad_suelo_m3m3": 0.254,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 11859117.91,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2019-11-01",
+      "NDVI": 0.3167,
+      "LST_Day_C": 24.155,
+      "Precipitacion_mm_16dias": 42.75,
+      "Humedad_suelo_m3m3": 0.1503,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 15669645.62,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2019-11-17",
+      "NDVI": 0.3741,
+      "LST_Day_C": 25.31,
+      "Precipitacion_mm_16dias": 15.03,
+      "Humedad_suelo_m3m3": 0.2034,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 15651554.75,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2019-12-03",
+      "NDVI": 0.3414,
+      "LST_Day_C": 26.465,
+      "Precipitacion_mm_16dias": 13.03,
+      "Humedad_suelo_m3m3": 0.2343,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 11983257.77,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2019-12-19",
+      "NDVI": 0.3225,
+      "LST_Day_C": 27.62,
+      "Precipitacion_mm_16dias": 13.58,
+      "Humedad_suelo_m3m3": 0.0955,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 22170021.37,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-01-01",
+      "NDVI": 0.3835,
+      "LST_Day_C": 28.775,
+      "Precipitacion_mm_16dias": 25.91,
+      "Humedad_suelo_m3m3": 0.0982,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 21967813.31,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-01-17",
+      "NDVI": 0.3468,
+      "LST_Day_C": 29.93,
+      "Precipitacion_mm_16dias": 99.35,
+      "Humedad_suelo_m3m3": 0.2121,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 14665825.58,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-02-02",
+      "NDVI": 0.3836,
+      "LST_Day_C": 31.085,
+      "Precipitacion_mm_16dias": 25.49,
+      "Humedad_suelo_m3m3": 0.2703,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 11228903.95,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-02-18",
+      "NDVI": 0.4114,
+      "LST_Day_C": 32.24,
+      "Precipitacion_mm_16dias": 45.82,
+      "Humedad_suelo_m3m3": 0.3006,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 11997188.51,
+      "Dias_helada": 0
+    }
+  ]
+}

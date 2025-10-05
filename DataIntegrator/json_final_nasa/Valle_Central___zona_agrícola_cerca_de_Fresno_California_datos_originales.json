@@ -1,0 +1,125 @@
+{
+  "location": "Valle Central   zona agrícola cerca de Fresno California datos originales",
+  "data": [
+    {
+      "fecha": "2014-11-01",
+      "NDVI": 0.1897,
+      "LST_Day_C": 15.32,
+      "Precipitacion_mm_16dias": 28.8,
+      "Humedad_suelo_m3m3": 0.3186,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 1302340.69,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2014-11-17",
+      "NDVI": 0.1755,
+      "LST_Day_C": 15.32,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.1796,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 2594655.86,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2014-12-03",
+      "NDVI": 0.1637,
+      "LST_Day_C": 15.32,
+      "Precipitacion_mm_16dias": 55.87,
+      "Humedad_suelo_m3m3": 0.3363,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 1028039.86,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2014-12-19",
+      "NDVI": 0.1995,
+      "LST_Day_C": 15.32,
+      "Precipitacion_mm_16dias": 56.35,
+      "Humedad_suelo_m3m3": 0.3687,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 1527462.75,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-01-01",
+      "NDVI": 0.1824,
+      "LST_Day_C": 17.62,
+      "Precipitacion_mm_16dias": 2.11,
+      "Humedad_suelo_m3m3": 0.289,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 2245781.95,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-01-17",
+      "NDVI": 0.0991,
+      "LST_Day_C": 19.92,
+      "Precipitacion_mm_16dias": 2.11,
+      "Humedad_suelo_m3m3": 0.2134,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 2289654.89,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-02-02",
+      "NDVI": 0.1573,
+      "LST_Day_C": 22.22,
+      "Precipitacion_mm_16dias": 35.56,
+      "Humedad_suelo_m3m3": 0.186,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 2862420.56,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-02-18",
+      "NDVI": 0.1555,
+      "LST_Day_C": 24.52,
+      "Precipitacion_mm_16dias": 4.0,
+      "Humedad_suelo_m3m3": 0.2071,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 3387980.8,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-03-06",
+      "NDVI": 0.1781,
+      "LST_Day_C": 26.0,
+      "Precipitacion_mm_16dias": 18.88,
+      "Humedad_suelo_m3m3": 0.1935,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 4772169.49,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-03-22",
+      "NDVI": 0.1943,
+      "LST_Day_C": 27.345,
+      "Precipitacion_mm_16dias": 5.18,
+      "Humedad_suelo_m3m3": 0.1142,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 4824710.5,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-04-07",
+      "NDVI": 0.1904,
+      "LST_Day_C": 28.69,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.1569,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 3856877.64,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2015-04-23",
+      "NDVI": 0.213,
+      "LST_Day_C": 28.69,
+      "Precipitacion_mm_16dias": 32.14,
+      "Humedad_suelo_m3m3": 0.1149,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 5907008.59,
+      "Dias_helada": 0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "location": "zona agrícola en Siberia central dentro del polígono Rusia (Siberia) datos originales",
+  "data": [
+    {
+      "fecha": "2018-01-01",
+      "NDVI": -0.0191,
+      "LST_Day_C": -34.7,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.298,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 417774.47,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2018-01-17",
+      "NDVI": -0.0108,
+      "LST_Day_C": -40.0,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.2979,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 1063781.9,
+      "Dias_helada": 1
+    },
+    {
+      "fecha": "2018-02-02",
+      "NDVI": 0.0363,
+      "LST_Day_C": -31.08,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.2997,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 1941547.31,
+      "Dias_helada": 1
+    },
+    {
+      "fecha": "2018-02-18",
+      "NDVI": 0.0441,
+      "LST_Day_C": -28.19,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.3007,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 3944750.67,
+      "Dias_helada": 1
+    },
+    {
+      "fecha": "2018-03-06",
+      "NDVI": 0.0713,
+      "LST_Day_C": -20.94,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.3002,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 6771330.63,
+      "Dias_helada": 1
+    },
+    {
+      "fecha": "2018-03-22",
+      "NDVI": 0.2128,
+      "LST_Day_C": -6.15,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.3011,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 8134040.73,
+      "Dias_helada": 0
+    }
+  ]
+}

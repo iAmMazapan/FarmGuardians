@@ -1,0 +1,55 @@
+{
+  "location": "zona agrícola en los distritos inundables cerca de Dhaka Bangladesh (Delta del Ganges) datos originales",
+  "data": [
+    {
+      "fecha": "2017-07-12",
+      "NDVI": 0.4284,
+      "LST_Day_C": 19.29396677816,
+      "Precipitacion_mm_16dias": 275.65,
+      "Humedad_suelo_m3m3": 0.4785,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 4983389.08,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-07-28",
+      "NDVI": 0.2655,
+      "LST_Day_C": 17.67970470448,
+      "Precipitacion_mm_16dias": 350.33,
+      "Humedad_suelo_m3m3": 0.4482,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 12352352.24,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-08-13",
+      "NDVI": 0.3367,
+      "LST_Day_C": 18.37900777422,
+      "Precipitacion_mm_16dias": 284.54,
+      "Humedad_suelo_m3m3": 0.4853,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 6003887.11,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-08-29",
+      "NDVI": 0.3856,
+      "LST_Day_C": 18.8803688058,
+      "Precipitacion_mm_16dias": 242.81,
+      "Humedad_suelo_m3m3": 0.4696,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 12184402.9,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-09-14",
+      "NDVI": 0.3893,
+      "LST_Day_C": 18.91660331358,
+      "Precipitacion_mm_16dias": 248.14,
+      "Humedad_suelo_m3m3": 0.46,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 11801656.79,
+      "Dias_helada": 0
+    }
+  ]
+}

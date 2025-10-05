@@ -1,0 +1,85 @@
+{
+  "location": "zona agrícola en Piura   costa norte Perú (Costa norte y central) datos originales",
+  "data": [
+    {
+      "fecha": "2017-01-01",
+      "NDVI": 0.1366,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.2327,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 4814407.94,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-01-17",
+      "NDVI": 0.1437,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 0.62,
+      "Humedad_suelo_m3m3": 0.2532,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 7262390.5,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-02-02",
+      "NDVI": 0.1636,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 45.02,
+      "Humedad_suelo_m3m3": 0.4791,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 2906461.08,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-02-18",
+      "NDVI": 0.2121,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 44.64,
+      "Humedad_suelo_m3m3": 0.4551,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 6674988.29,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-03-06",
+      "NDVI": 0.1621,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 27.23,
+      "Humedad_suelo_m3m3": 0.4841,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 3476628.72,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-03-22",
+      "NDVI": 0.1761,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.4851,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 3986131.17,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-04-07",
+      "NDVI": 0.1579,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.4145,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 6460405.71,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2017-04-23",
+      "NDVI": 0.1676,
+      "LST_Day_C": 33.83,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.3738,
+      "Evapotranspiracion_m": 0.0,
+      "Radiacion_solar_Jm2": 6538934.04,
+      "Dias_helada": 0
+    }
+  ]
+}

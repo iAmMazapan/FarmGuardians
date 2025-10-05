@@ -1,0 +1,85 @@
+{
+  "location": "zona agrícola en Punjab cerca de Ludhiana India (Punjab) datos originales",
+  "data": [
+    {
+      "fecha": "2020-06-09",
+      "NDVI": 0.2186,
+      "LST_Day_C": 34.63,
+      "Precipitacion_mm_16dias": 13.73,
+      "Humedad_suelo_m3m3": 0.2418,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 18792904.14,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-06-25",
+      "NDVI": 0.1761,
+      "LST_Day_C": 34.211666666666666,
+      "Precipitacion_mm_16dias": 27.11,
+      "Humedad_suelo_m3m3": 0.1996,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 15830325.07,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-07-11",
+      "NDVI": 0.2352,
+      "LST_Day_C": 33.79333333333334,
+      "Precipitacion_mm_16dias": 157.4,
+      "Humedad_suelo_m3m3": 0.262,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 15707402.24,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-07-27",
+      "NDVI": 0.3881,
+      "LST_Day_C": 33.375,
+      "Precipitacion_mm_16dias": 86.09,
+      "Humedad_suelo_m3m3": 0.3163,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 14757854.42,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-08-12",
+      "NDVI": 0.3073,
+      "LST_Day_C": 32.95666666666666,
+      "Precipitacion_mm_16dias": 122.35,
+      "Humedad_suelo_m3m3": 0.3811,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 10834038.8,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-08-28",
+      "NDVI": 0.2918,
+      "LST_Day_C": 32.538333333333334,
+      "Precipitacion_mm_16dias": 96.42,
+      "Humedad_suelo_m3m3": 0.3915,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 12386515.22,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-09-13",
+      "NDVI": 0.2962,
+      "LST_Day_C": 32.12,
+      "Precipitacion_mm_16dias": 25.09,
+      "Humedad_suelo_m3m3": 0.2537,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 15547187.84,
+      "Dias_helada": 0
+    },
+    {
+      "fecha": "2020-09-29",
+      "NDVI": 0.2768,
+      "LST_Day_C": 31.5,
+      "Precipitacion_mm_16dias": 0.0,
+      "Humedad_suelo_m3m3": 0.1512,
+      "Evapotranspiracion_m": -0.0,
+      "Radiacion_solar_Jm2": 16943911.11,
+      "Dias_helada": 0
+    }
+  ]
+}
