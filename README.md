@@ -1,6 +1,6 @@
 # Farm Guardians: NASA Agro Challenge 🚜🌿
 
-**Farm Guardians** es un MVP educativo desarrollado para la [NASA Space Apps Challenge 2025](https://www.spaceappschallenge.org/2025/challenges/nasa-farm-navigators-using-nasa-data-exploration-in-agriculture/).  
+**Farm Guardians** es un MVP educativo desarrollado para [NASA Space Apps Challenge 2025](https://www.spaceappschallenge.org/2025/challenges/nasa-farm-navigators-using-nasa-data-exploration-in-agriculture/).  
 Convierte datos satelitales de **NASA** en un videojuego donde los jugadores equilibran productividad y sostenibilidad agrícola.
 
 **Equipo:** Todo está acá 👉🧠👈  
