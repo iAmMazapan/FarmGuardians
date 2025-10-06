@@ -29,8 +29,6 @@ Disponible en **VR y dispositivos convencionales**.
 - [Repositorio GitHub](https://github.com/iAmMazapan/FarmGuardians)  
 - **Features del juego:** [Farm Guardians Web](https://gillyphuu.github.io/NASA-FarmGuardians/)  
 
-> Esta visualización permite ver una demo online de la interfaz, los mapas/climas y la dinámica básica del juego, ideal para jurados o visitantes que quieran explorarlo sin instalar nada.
-
 ---
 
 ## 🎮 Mecánicas del Juego
