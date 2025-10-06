@@ -73,3 +73,6 @@ FarmGuardians/
 │   └─ Documentation/
 │
 └─ README.md
+```
+![Mapa de fenómenos](mapa_fenomenos.png)
+
