@@ -1,78 +1,100 @@
 # Farm Guardians: NASA Agro Challenge 🚜🌿
 
 **Farm Guardians** es un MVP educativo desarrollado para la [NASA Space Apps Challenge 2025](https://www.spaceappschallenge.org/2025/challenges/nasa-farm-navigators-using-nasa-data-exploration-in-agriculture/).  
-El proyecto permite a los jugadores gestionar riego, fertilización y rotación de cultivos usando datos satelitales reales de NASA, equilibrando producción y sostenibilidad.
+Convierte datos satelitales de **NASA** en un videojuego donde los jugadores equilibran productividad y sostenibilidad agrícola.
 
-**Nombre del equipo:** Todo está acá 👉🧠👈
-
-**Integrantes:**
+**Equipo:** Todo está acá 👉🧠👈  
+**Integrantes:**  
 - Gutierrez Vilca, Henry Williams  
-- Nieto Barrientos, Yishar Piero (Líder de equipo)  
+- Nieto Barrientos, Yishar Piero   
 - Ochoa Barrios, Jesús Gustavo  
 - Pachari Lipa, Milton Alexis  
 - Puma Huamani, Glina de la Flor  
 
 ---
 
-## Objetivo del Juego
-Convertirse en un guardián agrícola sostenible, tomando decisiones basadas en datos reales:  
-- Riego y fertilización  
-- Rotación de cultivos  
-- Balance entre rendimiento y cuidado ambiental  
+## Resumen
+Más de **300 millones de pequeños agricultores** carecen de acceso a servicios digitales de información climática (WRI). Esto los deja vulnerables ante sequías, heladas y olas de calor.  
 
-### Bucle Principal
-1. Observar datos NASA (Temperatura, Lluvia, NDVI; opcional: Humedad SMAP, Evapotranspiración ECOSTRESS)  
-2. Decidir acciones (regar, fertilizar, rotar cultivos)  
-3. Simular la semana → actualizar vigor, agua y alertas  
-4. Recibir feedback inmediato (puntaje y tooltips educativos)
+**Farm Guardians** busca cerrar esa brecha: un videojuego que traduce datos de satélite como **NDVI, temperatura y precipitación** en misiones interactivas donde los jugadores toman decisiones de **riego, fertilización y rotación de cultivos**.  
+
+El objetivo: **aprender jugando cómo anticipar desafíos climáticos y proteger los cultivos**.  
+Disponible en **VR y dispositivos convencionales**.  
 
 ---
 
-## Mecánicas Clave
-- Mantener tres indicadores: Vigor del cultivo, Humedad del suelo, Salud del suelo  
-- Desafíos: eficiencia en agua, fertilización balanceada, rotación sostenible  
-- Recompensas visuales: cambios de color en cultivos y biodiversidad  
-- Minijuegos opcionales para reforzar aprendizaje de datos
+## 🎥 / 🌐 Demostración & Visualización
+
+- [Video demostración](https://www.youtube.com/watch?v=3FlgNu1J8EA)  
+- [Repositorio GitHub](https://github.com/iAmMazapan/FarmGuardians)  
+- **Visualización interactiva (versión web):** [Farm Guardians Web Demo](https://gillyphuu.github.io/NASA-FarmGuardians/)  
+
+> Esta visualización permite ver una demo online de la interfaz, los mapas/climas y la dinámica básica del juego, ideal para jurados o visitantes que quieran explorarlo sin instalar nada.
 
 ---
 
-## Datos Reales NASA
-| Fuente | Uso | Implementación |
-|--------|-----|----------------|
-| NASA POWER | Temperatura y lluvia | JSON diario/semanal |
-| NDVI MODIS/VIIRS | Vigor vegetal inicial | PNG estática |
-| SMAP (opcional) | Humedad inicial | Valor base |
-| ECOSTRESS (opcional) | Evapotranspiración | Factores dinámicos |
-
-**Modo sin conexión:** usar dataset precargado (`JSON`).
+## 🎮 Mecánicas del Juego
+- Mantener tres indicadores: **vigor del cultivo, humedad del suelo, salud del suelo**  
+- Escenarios climáticos reales: sequías, lluvias intensas, olas de calor  
+- Progresión:
+  - **Inicio (Semanas 1–3):** tutorial y decisiones simples  
+  - **Medio (Semanas 4–6):** eventos climáticos reales  
+  - **Final (Semanas 7–9):** autonomía con múltiples variables  
 
 ---
 
-## Estructura del Proyecto
+## 📊 Datos NASA
+| Fuente | Variables | Uso |
+|--------|-----------|-----|
+| NASA POWER | Temperatura, lluvia | Condiciones semanales |
+| MODIS/VIIRS (NDVI) | Vigor vegetal | Salud inicial |
+| SMAP (opcional) | Humedad | Valor base |
+| ECOSTRESS (opcional) | Evapotranspiración | Ajustes dinámicos |
+
+---
+
+## 🌪️ Fenómenos Climáticos en el Juego
+
+| Fenómeno | Región / País | Fechas | Descripción |
+|----------|----------------|--------|-------------|
+| Sequía extrema | California, EE. UU. (Valle Central) | 2014-07 → 2015-06 | Sequía prolongada con impacto agrícola e incendios |
+| Calor extremo | Australia (Victoria) | 2019-03 → 2020-02 | Ola de calor récord con estrés en cultivos |
+| Plagas agrícolas | India (Punjab) | 2019-12 → 2020-11 | Brotes de langostas afectando trigo |
+| Precipitaciones intensas | Bangladesh (Delta del Ganges) | 2016-12 → 2017-11 | Inundaciones monzónicas sobre arrozales |
+| Heladas / Frío extremo | Siberia, Rusia | 2017-07 → 2018-06 | Heladas severas que afectaron cultivos |
+| El Niño / Lluvias intensas | Perú (Costa norte – Piura) | 2016-07 → 2017-06 | Lluvias extremas e inundaciones agrícolas |
+
+![Mapa de fenómenos](mapa_fenomenos.png)
+
+---
+
+## 🔄 Pipeline de Datos
+1. Conectar a APIs de NASA (GEE, POWER)  
+2. Seleccionar región y fechas  
+3. Descargar datos (NDVI, T2M, PRECTOT)  
+4. Procesar y limpiar (resample semanal)  
+5. Calcular indicadores (ΔNDVI, lluvia acumulada, temperatura)  
+6. Exportar a **JSON** para integración con el juego  
+
+---
+
+## 🗂️ Estructura del Proyecto
 
 ```text
 FarmGuardians/
 │
-├─ UnityProject/            # Proyecto de Unity (XR + UI + Mecánicas)
+├─ UnityProject/            # Proyecto Unity (VR + UI + mecánicas)
 │   ├─ Assets/
 │   ├─ Scenes/
 │   ├─ Scripts/
 │   └─ UI/
 │
-├─ DataIntegrator/
-│   ├─ ColabNotebooks/
+├─ DataIntegrator/          # Módulo de datos NASA
+│   ├─ ColabNotebooks/      # Prototipos y pipelines
 │   │   └─ nasa_data.ipynb
-│   ├─ raw_data/
-│   ├─ processed_data/
-│   │   └─ data.json
+│   ├─ raw_data/            # Datos crudos
+│   ├─ processed_data/      # Datos procesados (JSON)
 │   ├─ utils.py
 │   └─ requirements.txt
 │
-├─ Design/
-│   ├─ Mockups/
-│   └─ Documentation/
-│
 └─ README.md
-```
-![Mapa de fenómenos](mapa_fenomenos.png)
-
